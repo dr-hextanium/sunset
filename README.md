@@ -50,3 +50,7 @@ For your ease of use, these packages come pre-installed:
 - [clipboardy:](https://github.com/sindresorhus/clipboardy) For reading and writing to the clipboard.
 
 There are also utility functions found in `./utilties/utils.js`.
+
+### Tweaks
+There is one small tweak that you need to perform if you wish for `<robot>.typeString` to execute without the long delay.
+After installing `robotjs`, head over to `./node_modules/robotjs/src/keypress.c`. Then follow the steps on [this issue response](https://github.com/octalmage/robotjs/issues/530#issuecomment-570795846).
