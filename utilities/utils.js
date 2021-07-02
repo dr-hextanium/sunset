@@ -7,5 +7,5 @@ module.exports.backspace = (count, robot) => {
 module.exports.control = (key, robot) => {
     robot.keyToggle("control", "down");
     robot.keyTap(key);
-    robot.keyToggle("control, up");
+    robot.keyToggle("control", "up");
 }
