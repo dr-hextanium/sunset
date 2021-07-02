@@ -24,6 +24,7 @@ Once you have done so, install all of the packages:
 ```shell
 npm i
 ```
+**Note:** If you get an error, and you're on Linux / MacOS, use `sudo`.
 
 ## Usage
 Once you're in the freshly installed directory, run:
@@ -54,3 +55,7 @@ There are also utility functions found in `./utilties/utils.js`.
 ### Tweaks
 There is one small tweak that you need to perform if you wish for `<robot>.typeString` to execute without the long delay.
 After installing `robotjs`, head over to `./node_modules/robotjs/src/keypress.c`. Then follow the steps on [this issue response](https://github.com/octalmage/robotjs/issues/530#issuecomment-570795846).
+Then run:
+```shell
+npm rebuild
+```
