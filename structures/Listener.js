@@ -51,7 +51,7 @@ module.exports = new (class Listener {
     }
 
     start() {
-        this.hook.start(DEBUG);
+        this.hook.start();
     }
 
     flush() {
